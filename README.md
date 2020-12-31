@@ -1,19 +1,38 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
+# Capstone Project - Azure Machine Learning Engineer 
 
-# Your Project Title Here
+In this project, a dataset i.e. bank note authentication has been used and fed to Azure ML services. Two approaches are taken on the dataset and they are as follows. 
 
-*TODO:* Write a short introduction to your project.
+* Automated ML: AutoML is an automation way to deal with time consuming tasks of machine learning model. As a result, it selects the best model after running through multiple algorithms. It saves time and resource. 
+
+* Hyperdrive: Hyperdrive helps tune hyperparameters for the model. In this case, we need to select algorithm and hyperparameters to be tuned. 
 
 ## Project Set Up and Installation
-*OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
+
+In order to run notebooks in this project, the following needs to be met. 
+
+* Access Microsoft Azure Portal.
+* Create workspace in Azure ML Studio.
+* Create a VM to run Jupyter Notebook.
+* Register dataset that can be accessed from notebook.
+* Upload .py an .ipynb files into workspace. 
 
 ## Dataset
 
 ### Overview
-*TODO*: Explain about the data you are using and where you got it from.
+
+Data were extracted from images that were taken from genuine and forged banknote-like specimens. For digitization, an industrial camera usually used for print inspection was used. The final images have 400x 400 pixels. Due to the object lens and distance to the investigated object gray-scale pictures with a resolution of about 660 dpi were gained. Wavelet Transform tool were used to extract features from images.
+
+1. variance of Wavelet Transformed image (continuous) 
+2. skewness of Wavelet Transformed image (continuous) 
+3. curtosis of Wavelet Transformed image (continuous) 
+4. entropy of image (continuous) 
+5. class (integer i.e. 0/1) 
+
+Citation: dataset and above note are from [UCI](https://archive.ics.uci.edu/ml/datasets/banknote+authentication).
 
 ### Task
-*TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
+
+It is a classification problem to find out whether the bank note is genuine or forged.
 
 ### Access
 *TODO*: Explain how you are accessing the data in your workspace.
