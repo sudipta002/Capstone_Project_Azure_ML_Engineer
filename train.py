@@ -10,7 +10,6 @@ from azureml.core import Dataset
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
-
 def load_data(input_data, ws):
     # Get the input dataset by name
     dataset = Dataset.get_by_name(ws, name=input_data)
@@ -25,7 +24,6 @@ def load_data(input_data, ws):
     x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=120)
 
     return x_train, x_test, y_train, y_test
-
 
 def main():
     # Add arguments to script
