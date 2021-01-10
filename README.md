@@ -71,6 +71,10 @@ Here are configuration used in AutoML experiment.
 
 AutoML has yielded the highest accuracy i.e. 1.0 with **StackEnsemble** algorithm. 
 
+**StackEnsemble**
+
+Ensemble machine learning methods use multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms. Many of the popular modern machine learning algorithms are actually ensembles. For example, Random Forest and Gradient Boosting Machine (GBM) are both ensemble learners. [Source](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/stacked-ensembles.html)
+
 ![](images/automl_result.png)
 
 AutoML has considered a good number of algorithms before declaring StackEnsemble as the best one. Here is a screenshot of **RunDetails**.
