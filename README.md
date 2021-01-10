@@ -83,7 +83,6 @@ We can take a look at the parameters of StackEnsemble.
 
 
 ## Hyperparameter Tuning
-*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
 This is a classification problem, and I have made use of Logistic Regression for this task. Two parameters are tuned, and they are as follows.
 
