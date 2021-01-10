@@ -85,6 +85,22 @@ We can take a look at the parameters of StackEnsemble.
 
 ![](images/automl_best_run.png)
 
+Hyperparameters are as follows:
+
+- C=1048.1131341546852,
+- break_ties=False,
+- cache_size=200,
+- class_weight=None,
+- coef0=0.0,
+- decision_function_shape='ovr',
+- degree=3,
+- gamma='scale',
+- kernel='rbf',
+
+Detailed view is here.
+
+![](images/automl_hyperparameters.png)
+
 
 ## Hyperparameter Tuning
 
