@@ -153,6 +153,9 @@ Screenshot of experiment demonstration and model deployment is [here](https://yo
 
 ## Standout Suggestions
 1. I could have taken large dataset for these experiment.
+2. We would like to use other primary metrics because accuracy sometimes does not help derive model performance.
+3. In experiment with HyperDrive, we could use Bayesian sampling in place of Random sampling for Hyperparameter selection. Bayesian sampling is based on the Bayesian optimization algorithm. It picks samples based on how previous samples performed, so that new samples improve the primary metric.
+4. We could use warm start which enables to reuse knowledge of previous runs accelerating hyperparameter tuning in HyperDrive experiment. [Source] (https://docs.microsoft.com/en-us/azure/machine-learning/how-to-tune-hyperparameters)
 
 ## Citation
 1. GitHub
